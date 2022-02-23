@@ -1,0 +1,24 @@
+.menu ul ul {
+
+    position:absolute ;
+    display: none;
+   padding:0 px; 
+   margin:0 px; 
+   list-style:none ;
+   width: 150px ;
+   background: #272f54;   
+}
+.menu ul ul li a{
+    text-align: center;
+    font-size: 15px;
+    color: #fefbfb;
+    text-decoration: none;
+    display: block;
+    padding:0 10px;
+}
+.menu>ul>li:hover>ul{
+    display: block;
+}
+.menu ul ul li a:hover{
+    text-decoration: underline;
+}
